@@ -1,0 +1,23 @@
+﻿
+.mainbody{width:1200px;}
+
+ body {margin:0; float: center;background-color: black;}
+
+.Layout2_header{ background-color:#00ffff; width:100%; height:100px;} /* Index page header */
+
+.Layout2_topmenu{ background-color:Orange; width:100%; height:100px;}	/* Index page menu */
+				
+.Layout2_contents{ width:70%; background-color:#FFEE92; float:left; height:765px;}	/* Contents of index page */
+
+.menuLink{font-size:20px; color:blue;} /* Menu links group modifier */
+
+.menuLink:hover {color:red;} /* links turn to red when mouse hovers over them */
+		
+.menuLink:active {color:green;}
+	
+#IndexTopic {margin:0; color:red;} /* Index page header text*/
+
+#IndexH1 {margin:15; float:left; margin-top:10; color:Red;  text-decoration: underline overline wavy blue;} /* modify specified h1 header from Index.html */
+
+#IndexText {float:left; margin-top:70; margin-left:-300;} /* Text in the content area */
+
