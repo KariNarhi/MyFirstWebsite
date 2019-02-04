@@ -1,23 +1,34 @@
 ﻿
 .mainbody{width:1200px;}
 
- body {margin:0; float: center;background-color: black;}
+ body {margin:0; float: center;background-color: black; background-image: url("gitIMG.png");}
 
-.Layout2_header{ background-color:#00ffff; width:100%; height:100px;} /* Index page header */
+.Layout2_header{ background-color:#00ffff; width:100%; height:100px;} /* page header */
 
-.Layout2_topmenu{ background-color:Orange; width:100%; height:100px;}	/* Index page menu */
+.Layout2_topmenu{ background-color:Orange; width:100%; height:100px;}	/* page menu */
 				
-.Layout2_contents{ width:70%; background-color:#FFEE92; float:left; height:765px;}	/* Contents of index page */
+.Layout2_contents{ width:70%; background-color:#FFEE92; float:left; height:1000px;}	/* Contents of page */
 
 .menuLink{font-size:20px; color:blue;} /* Menu links group modifier */
 
 .menuLink:hover {color:red;} /* links turn to red when mouse hovers over them */
 		
-.menuLink:active {color:green;}
+.menuLink:active {color:green;} /* links flash green when clicked */
 	
-#IndexTopic {margin:0; color:red;} /* Index page header text*/
+#IndexTopic {margin:0; color:yellow; text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red; font-size: 50px; padding:0;} /* Index page header text*/
 
 #IndexH1 {margin:15; float:left; margin-top:10; color:Red;  text-decoration: underline overline wavy blue;} /* modify specified h1 header from Index.html */
 
-#IndexText {float:left; margin-top:70; margin-left:-300;} /* Text in the content area */
+#IndexText {float:left; margin-top:70; margin-left:-300;} /* Text in the Index.html content area */
 
+#page1H1 { color: #009b4a; text-decoration: underline dashed blue;} /* page1 H1 heading */
+
+#page1Text {text-align: left; padding-left: 10px;} /* page1 content text */
+
+ul li {text-align: left; font-size: 20px; margin-top:-20; padding:0; } /* page1 list */
+
+#sourceList li {font-size: 25px; }
+
+#page1Text2 {text-align: left; padding-left: 10px;} /* page1 content text2 */
+
+#page6H1 {text-decoration: underline;}
