@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>How to use</title>
+<title>Git basics</title>
 <link href="karicss.css" rel="stylesheet" type="text/css">
+<meta charset="UTF-8">
 </head>
 <body>
 <center>
@@ -32,10 +33,51 @@
 <!-- PAGE MENU ENDS -->
 
 <!-- PAGE CONTENTS STARTS -->
-<div class="Layout2_contents">
+<div class="Layout2_contents" id="page2contents">
+
 <h1 id="page2H1">Theory</h1>
 
-<p id="page2Text" style="font-size:25px"><b> Kari N&auml;rhi </b></p>
+<h1 id="page2H1.1">How Git Handles Data</h1>
+
+<p id="page2Text" style="font-size:25px"><b> After initiating the git repository, 
+Git takes a "snapshot" of the current state of the project whenever the user makes changes to the repository. <br>
+<span class="page2span">Git basically takes a picture of what all the files look like at that moment and stores a reference to that snapshot.</span></b></p>
+
+<h1 id="page2H1.2"> Local operations </h1>
+
+<p id="page2Text2" style="font-size:25px"><b> Almost every Git operation can be done on local machine, 
+since most operations in Git <span class="page2span"> need only local files and resources to operate.</span><br>
+There is no need for an external machine 
+or network for editing and committing files to a local repository. Internet is needed only when accessing remote repositories like GitHub. 
+And because the whole history is on the local machine, the operations are almost instantaneous.</b></p>
+
+<h1 id="page2H1.3">Integrity</h1>
+
+<p id="page2Text3" style="font-size:25px"><b> Everything in Git is checksummed before being stored and then is referred to by that checksum. 
+This way Git repository keeps track of everything inside of it and it is nearly impossible to make changes without Git knowing about it. </b></p>
+
+<h1 id="page2H1.4">Git only adds data</h1>
+
+<p id="page2Text4" style="font-size:25px"><b> Git actions only add data to Git database, so it is hard to get the system to do anything 
+that is not undoable or to make it erase data in any way. As with any VCS, it is possible to lose or mess up changes that haven’t been committed yet, 
+but after committing a snapshot into Git, it is very difficult to lose, especially if users regularly push their database to another repository. </b></p>
+
+<h1 id="page2H1.5">Committed, Modified, Staged</h1>
+
+<p id="page2Text5" style="font-size:25px"><b> The files in Git can be categorized in 3 different states: Committed, Modified and Staged.</b></p>
+
+<ul id="theoryList">
+	<li><p><b>Committed: data is safely stored in database</b></p></li>
+	<li><p><b>Modified: file has been modified, but not committed to database</b></p></li>
+	<li><p><b>Staged: file has been marked to be included in next commit</b></p></li>
+</ul>
+
+<p id="page2Text6" style="font-size:25px"><b> The 3 main sections of Git project are: Git repository, working directory and staging area. 
+The working directory is where user does all the editing work on files. After that, the files are added to the staging area to be committed. 
+When the files are committed, the files from staging area are moved permanently to the repository database. <br><br>
+Basic workflow on Git: <br> 0. (Optional) Clone repository from remote repository. <br> 1. modify files in working directory. <br> 2. selected files to be committed in the staging area. <br> 3. commit files to repository from staging area. 
+Git takes a snapshot of that commit and stores it permanently in the Git directory (repository). </b></p>
+
 <!-- PAGE CONTENTS ENDS -->
 
 </div>
@@ -43,3 +85,25 @@
 </center>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
