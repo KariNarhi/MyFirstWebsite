@@ -33,10 +33,72 @@
 <!-- PAGE MENU ENDS -->
 
 <!-- PAGE CONTENTS STARTS -->
-<div class="Layout2_contents">
+<div class="Layout2_contents" id="page4contents">
 <h1 id="page4H1">Own Examples</h1>
 
-<p id="page4Text" style="font-size:25px"><b> Kari N&auml;rhi </b></p>
+<img src="Images/img1.png" alt="example1" width="500px" height="150px" id="img1">
+
+<p id="page4Text" style="font-size:25px"><b> Image 1: create new folder and open Git Bash terminal inside it. </b></p>
+
+<img src="Images/img2.png" alt="example2" width="500px" height="150px" id="img2">
+
+<p id="page4Text2" style="font-size:25px"><b> Image 2: initialize git repository. </b></p>
+
+<img src="Images/img3.png" alt="example3" width="500px" height="200px" id="img3">
+
+<p id="page4Text3" style="font-size:25px"><b> Image 3: run <code>git status</code> to check the current status of the repository. 
+Word (master) has appeared after the repository path which means we are in the master branch like the status says. 
+We have made no commits yet and we have nothing to commit because there are no files added. </b></p>
+
+<img src="Images/img4.png" alt="example4" width="500px" height="200px" id="img4">
+
+<p id="page4Text4" style="font-size:25px"><b> Image 4: after adding a new file "README.txt" to the repository, 
+the status shows we have 1 untracked file which is shown in red. </b></p>
+
+<img src="Images/img5.png" alt="example5" width="500px" height="200px" id="img5">
+
+<p id="page4Text5" style="font-size:25px"><b> Image 5: let's add the new file and run <code>git status</code> again. 
+Now we see that the new file is green instead of red and is ready to be committed. If we modify the file, 
+the status will again show the file in red and mentions that it's been modified, after which the file has to be added again to the staging area. </b></p>
+
+<img src="Images/img6.png" alt="example6" width="500px" height="200px" id="img6">
+
+<p id="page4Text6" style="font-size:25px"><b> Image 6: commit files to repository and run <code>git status</code> again. <br>
+The commit-operation shows how many files were changed, along with how many insertions and deletions were made. Also, after the commit, 
+our working tree is now clean, so there are no differences to the committed version of the repository.</b></p>
+
+<img src="Images/img7.png" alt="example7" width="500px" height="150px" id="img7">
+
+<p id="page4Text7" style="font-size:25px"><b> Image 7: create a new branch called "feature". Now we can see that the (master) has become (feature), 
+and we can work on a different branch without affecting our master branch.</b></p>
+
+<img src="Images/img8.png" alt="example8" width="500px" height="150px" id="img8">
+
+<p id="page4Text8" style="font-size:25px"><b> Image 8: we have added and committed new file "License.txt" to feature-branch. 
+Let's run <code>ls</code> command to list every file in feature-branch. </b></p>
+
+<img src="Images/img9.png" alt="example9" width="500px" height="330px" id="img9">
+
+<p id="page4Text9" style="font-size:25px"><b> Image 9: let's change back to master and run <code>ls</code> to see our files in master-branch. 
+There is only README.txt at this point. So let's merge feature to master and run <code>git status</code> and <code>ls</code> again. 
+Now we see that there is License.txt file in master-branch and it's already been committed when it was in feature-branch. </b></p>
+
+<img src="Images/img10.png" alt="example10" width="500px" height="200px" id="img10">
+
+<p id="page4Text10" style="font-size:25px"><b> Image 10: let's run <code>git branch</code> to list all branches on local repository (current branch is shown in green), 
+and then delete the feature-branch with <code>git branch -d feature</code> now that it has been merged to master and served its purpose. 
+After running <code>git branch</code> again, we see that feature-branch is removed.</b></p>
+
+<br>
+
+<p id="page4Text11" style="font-size:25px"><b> Since this was not a cloned repository, we would have to add our own remote server with, for example: <br> 
+<code>git remote add origin https://github.com/Username/MyProject</code> <br><br>
+To push our local repository changes to the remote repository, we would run <code>git push origin master</code> command. <br><br>
+To pull changes from remote repository (if someone else works in the same project), we would run <code>git pull origin master</code> command to update our local repository.</b></p>
+
+
+
+
 <!-- PAGE CONTENTS ENDS -->
 
 </div>

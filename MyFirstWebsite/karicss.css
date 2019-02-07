@@ -1,7 +1,7 @@
 
 .mainbody{width:1200px;}
 
- body {margin:0; background-color: black; background-image: url("gitIMG.png");}
+ body {margin:0; background-color: black; background-image: url("Images/gitIMG.png");}
 
 .Layout2_header{ background-color:#00ffff; width:100%; height:100px;} /* PAGE HEADER */
 
@@ -10,6 +10,10 @@
 .Layout2_contents{ width:70%; background-color:#FFEE92; float:left; height:1000px;}	/* CONTENTS OF PAGE */
 
 #page2contents {height:1500px;} /* page2 contents */
+
+#page3contents {height:2000px;} /* page3 contents */
+
+#page4contents {height:3500px;} /* page4 contents */
 
 .menuLink{font-size:20px; color:blue;} /* MENU LINKS CLASS MODIFIER */
 
@@ -49,7 +53,7 @@ ul li {text-align: left; font-size: 20px; margin-top:-20px; padding:0; } /* page
 
 #page2Text {text-align: left; padding-left: 10px; margin-top: -15px; } /* page2 content text */
 
-.page2span {font-style: italic; }
+.page2span {font-style: italic; } /* italic style for all spans on page2 */
 
 #page2Text2 {text-align: left; padding-left: 10px; margin-top: -15px; } /* page2 content text2 */
 
@@ -61,7 +65,63 @@ ul li {text-align: left; font-size: 20px; margin-top:-20px; padding:0; } /* page
 
 #page2Text6 {text-align: left; padding-left: 10px; margin-top: -15px; } /* page2 content text6 */
 
-#page6H1 {text-decoration: underline;}
+#page3H1 {color: #a71ebc; border-bottom: 10px dashed green;} /* page3 H1 heading */
+
+#page3Text {text-align: left; padding-left: 10px; margin-top: -15px; } /* page3 content text */
+
+#hashID {font-style: italic; } /* id of example commit id styled in italic */
+
+code {background-color: black; font-style: normal; border-radius: 10px; color: white; padding: 2px 15px; font-family: menlo, monospace; font-size: 20px; } /* code snippets on page3 */
+
+#code1 {margin-left: 300px; } /* first code text container on page3 */
+
+#page4H1 {color: #ceff1e; border-bottom: 10px double purple; width: 500px; background-color: green; border-radius: 10px; } /* page4 H1 heading */
+
+#img1 {margin-top: -10px; border: 3px solid red;}
+
+#img2 {margin-top: 5px; border: 3px solid red;}
+
+#img3 {margin-top: 5px; border: 3px solid red;}
+
+#img4 {margin-top: 5px; border: 3px solid red;}
+
+#img5 {margin-top: 5px; border: 3px solid red;}
+
+#img6 {margin-top: 5px; border: 3px solid red;}
+
+#img7 {margin-top: 5px; border: 3px solid red;}
+
+#img8 {margin-top: 5px; border: 3px solid red;}
+
+#img9 {margin-top: 5px; border: 3px solid red;}
+
+#img10 {margin-top: 5px; border: 3px solid red;}
+
+#page4Text {text-align: left; padding-left: 10px; margin-top: 5px; margin-bottom: 0px;  } /* page4 content text */
+
+#page4Text2 {text-align: left; padding-left: 10px; margin-top: 5px; margin-bottom: 0px; } /* page4 content text2 */
+
+#page4Text3 {text-align: left; padding-left: 10px; margin-top: 5px; margin-bottom: 0px; } /* page4 content text3 */
+
+#page4Text4 {text-align: left; padding-left: 10px; margin-top: 5px; margin-bottom: 0px; } /* page4 content text4 */
+
+#page4Text5 {text-align: left; padding-left: 10px; margin-top: 5px; margin-bottom: 0px; } /* page4 content text5 */
+
+#page4Text6 {text-align: left; padding-left: 10px; margin-top: 5px; margin-bottom: 0px; } /* page4 content text6 */
+
+#page4Text7 {text-align: left; padding-left: 10px; margin-top: 5px; margin-bottom: 0px; } /* page4 content text7 */
+
+#page4Text8 {text-align: left; padding-left: 10px; margin-top: 5px; margin-bottom: 0px; } /* page4 content text8 */
+
+#page4Text9 {text-align: left; padding-left: 10px; margin-top: 5px; margin-bottom: 0px; } /* page4 content text9 */
+
+#page4Text10 {text-align: left; padding-left: 10px; margin-top: 5px; margin-bottom: 0px; } /* page4 content text10 */
+
+#page4Text11 {text-align: left; padding-left: 10px; margin-top: 5px; margin-bottom: 0px; } /* page4 content text11 */
+
+#page5H1 {}
+
+#page6H1 {text-decoration: underline;} /* page6 H1 heading */
 
 
 
