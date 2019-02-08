@@ -3,9 +3,9 @@
 
  body {margin:0; background-color: black; background-image: url("Images/gitIMG.png");}
 
-.Layout2_header{ background-color:#00ffff; width:100%; height:100px;} /* PAGE HEADER */
+.Layout2_header{ background-color:black; border: 5px solid red ; border-radius: 10px ; width:100%; height:100px;} /* PAGE HEADER */
 
-.Layout2_topmenu{ background-color:Orange; width:100%; height:100px;}	/* PAGE MENU */
+.Layout2_topmenu{ background-color:Orange; border: 5px solid green ; border-radius: 10px; width:100%; height:100px;}	/* PAGE MENU */
 				
 .Layout2_contents{ width:70%; background-color:#FFEE92; float:left; height:1000px;}	/* CONTENTS OF PAGE */
 
@@ -14,6 +14,8 @@
 #page3contents {height:2000px;} /* page3 contents */
 
 #page4contents {height:3500px;} /* page4 contents */
+
+#page5contents {height:1200px; background-color: black; } /* page5 contents */
 
 .menuLink{font-size:20px; color:blue;} /* MENU LINKS CLASS MODIFIER */
 
@@ -35,7 +37,7 @@ ul li {text-align: left; font-size: 20px; margin-top:-20px; padding:0; } /* page
 
 #sourceList li {font-size: 25px; margin-top: -15px; } /* list of sources on page6 */
 
-#theoryList li {font-size: 25px; margin-top: -20px; }
+#theoryList li {font-size: 25px; margin-top: -20px; } /* list for theory page2 */
 
 #page1Text2 {text-align: left; padding-left: 10px;} /* page1 content text2 */
 
@@ -119,7 +121,11 @@ code {background-color: black; font-style: normal; border-radius: 10px; color: w
 
 #page4Text11 {text-align: left; padding-left: 10px; margin-top: 5px; margin-bottom: 0px; } /* page4 content text11 */
 
-#page5H1 {}
+#page5H1 {color: #fc00f8; border-bottom: 10px double yellow; border-top: 10px dotted red; width: 700px; background-color: black; border-radius: 10px; } /* page5 H1 heading */
+
+#page5Text {color: white ;text-align: center; padding-left: 10px; margin-top: 5px; margin-bottom: 0px; } /* page5 content text */
+
+#page5Text2 {color: white ;text-align: center; padding-left: 10px; margin-top: 5px; margin-bottom: 0px; } /* page5 content text2 */
 
 #page6H1 {text-decoration: underline;} /* page6 H1 heading */
 
