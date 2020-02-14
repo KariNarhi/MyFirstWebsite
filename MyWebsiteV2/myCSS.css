@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(Images/Tux.png);
+  margin: 0px;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: yellow;
+  text-shadow: 2px 2px red;
+  opacity: 0.8;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+  opacity: 0.9;
+  height: 719px;
+  margin: 0 auto -60px; /* Negative indent footer by its height */
+  padding: 0 0 60px; /* Pad bottom by footer height */
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the links in the nav list */
+li > a {
+  color: red;
+  text-decoration-line: none;
+  font-weight: bold;
+  font-size: 25px;
+  text-shadow: 1px 1px black;
+  font-style: italic;
+}
+
+#servicesList > li {
+  margin: 10px;
+}
+
+li > a:hover {
+  color: green;
+  text-decoration-line: underline;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 7;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+article > h1 {
+  font-size: 30px;
+}
+
+article > p {
+  line-height: 1.6;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: yellowgreen;
+  font-weight: bold;
+  font-size: 25px;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
